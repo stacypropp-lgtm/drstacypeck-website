@@ -27,6 +27,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/blog.css">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -107,6 +108,7 @@
   .p-book .btn{padding:.6rem 1.2rem;font-size:.92rem}
   .p-quiet{text-align:center;color:var(--ink-2);font-size:.95rem;max-width:52ch;margin:0 auto}
   .p-band{background:var(--white);padding:4rem 0}
+  .p-band .post-card{background:var(--cream)}
   .p-samples{padding:4.5rem 0}
   .p-samples h2{margin-bottom:.75rem}
   .p-samples .p-quiet{max-width:30ch;line-height:1.6;margin-bottom:1.75rem}
@@ -128,7 +130,7 @@
 <body>
 <header class="top"><div class="wrap top__in">
   <a class="brand" href="/">Dr. Stacy Peck <span>DACM, L.Ac.</span></a>
-  <nav aria-label="Main"><a href="/books">Books</a><a href="/shop">Shop</a><a href="/about">About</a></nav>
+  <nav aria-label="Main"><a href="/books">Books</a><a href="/shop">Shop</a><a href="/blog">Blog</a><a href="/about">About</a></nav>
 </div></header>
 
 <section class="p-hero"><div class="p-hero__in">
@@ -153,6 +155,7 @@
     <div class="p-book"><img src="https://m.media-amazon.com/images/I/81TaXo1yPSL._SL500_.jpg" alt="What Would Your Acupuncturist Say?" width="300" height="450" loading="lazy"><h3>What Would Your Acupuncturist Say?</h3><a class="btn" href="https://www.amazon.com/dp/B0GTFMDSDQ?tag=herbalrhymes-20" rel="noopener">Buy on Amazon</a></div>
   </div>
   <p class="center mt">Free with <em>Your Body Is Trying to Tell You Something</em>: <a href="/meal-plans">7-Day Kickstart Meal Plans (PDF)</a></p>
+  <p class="center">Trouble sleeping? <a href="/shop#acupressure-for-sleep">Acupressure for Sleep</a>: a 10-minute bedtime routine. Instant PDF, $19.</p>
 </section>
 
 <section class="p-band" id="students"><div class="wrap">
@@ -162,19 +165,52 @@
     <div class="p-book"><img src="/images/cover-herbs-2nd.jpg" alt="Herbal Rhymes: Single Herbs Edition" width="300" height="450" loading="lazy"><h3>Herbal Rhymes: Single Herbs</h3><a class="btn" href="https://www.amazon.com/dp/B0GTRLRX4Z?tag=herbalrhymes-20" rel="noopener">Buy on Amazon</a></div>
     <div class="p-book"><img src="/images/cover-formulas.jpg" alt="Herbal Rhymes: Formulas Edition" width="300" height="450" loading="lazy"><h3>Herbal Rhymes: Formulas</h3><a class="btn" href="https://www.amazon.com/dp/B0GHQB5S9R?tag=herbalrhymes-20" rel="noopener">Buy on Amazon</a></div>
   </div>
-  <p class="center mt"><a class="btn btn--ghost" href="/shop">Flashcards, cheat sheets and bundles</a></p>
+  <p class="center mt"><a class="btn btn--ghost" href="/shop#bundle">Flashcards, cheat sheets and bundles</a></p>
+  <div class="quotes">
+    <blockquote class="quote">&ldquo;The poems actually stick in my head during exams. I went from failing practice tests to passing with confidence. This system is a game-changer.&rdquo;<cite>TCM Student, PCOM</cite></blockquote>
+    <blockquote class="quote">&ldquo;I wish I'd found these flashcards in my first year. The Board Pearls alone are worth the price. Passed the NCCAOM on my first try.&rdquo;<cite>Recent DAOM Graduate</cite></blockquote>
+    <blockquote class="quote">&ldquo;Finally, a study resource that understands how the brain actually works. The mnemonic approach makes 217 herbs feel manageable.&rdquo;<cite>L.Ac. Candidate, OCOM</cite></blockquote>
+  </div>
 </div></section>
 
-<section class="wrap p-samples center">
-  <h2>Free study samples</h2>
-  <p class="p-quiet">Herb flashcards and an acupoint guide.<br>Sent to your inbox.</p>
-  <p><a class="btn btn--gold" href="https://herbalrhymes.com/free-resources">Get the free samples</a></p>
+<section class="wrap section" id="free">
+  <h2 class="center">Free tools</h2>
+  <div class="tools">
+    <a class="tool" href="https://stacypropp-lgtm.github.io/element-quiz/" rel="noopener"><strong>What's Your Element?</strong><span>A 20-question quiz to find your Chinese medicine element.</span></a>
+    <a class="tool" href="/meal-plans"><strong>7-Day Meal Plans</strong><span>Kickstart meal plans from <em>Your Body Is Trying to Tell You Something</em>. Free PDF.</span></a>
+    <a class="tool" href="https://herbalrhymes.com/free-resources"><strong>Free study samples</strong><span>Herb flashcards and an acupoint guide, sent to your inbox.</span></a>
+    <a class="tool" href="https://stacypropp-lgtm.github.io/herbalrhymes-app/" rel="noopener"><strong>Herbal Rhymes study app</strong><span>Practice herbs and formulas for the boards, free in your browser.</span></a>
+  </div>
 </section>
+
+<section class="p-band"><div class="wrap">
+  <h2 class="center">From the blog</h2>
+  <p class="p-quiet">Chinese medicine for everyday life.</p>
+  <div class="post-grid" style="margin-top:2rem">
+    <article class="post-card">
+      <p class="post-card__date">October 28, 2026</p>
+      <h3><a href="/blog/itchy-dry-skin-winter-heat-chinese-medicine">Itchy, Dry Skin the Minute the Heat Comes On? Chinese Medicine Explains (and What to Do)</a></h3>
+      <p>Why skin itches when the furnace turns on: Blood deficiency generating Wind in Chinese medicine, verified against the Suwen and Maciocia. Foods, 3 acupressure points (SP 10, LI 11, SP 6), and a 6-week plan.</p>
+    </article>
+    <article class="post-card">
+      <p class="post-card__date">October 28, 2026</p>
+      <h3><a href="/blog/dry-skin-dry-cough-grief-lung-tcm">Dry Skin, a Dry Cough, and a Heavy Heart: Why Autumn Brings All Three (and the One Organ Behind Them)</a></h3>
+      <p>Why dry skin, a tickly cough and autumn sadness show up together: the Lung system in Chinese medicine, verified against the Neijing and Maciocia, with a 14-day inside-out plan.</p>
+    </article>
+    <article class="post-card">
+      <p class="post-card__date">October 28, 2026</p>
+      <h3><a href="/blog/clocks-fall-back-sleep-chinese-medicine">Clocks Fall Back on November 1: Why You’ll Sleep Worse This Week (and the 2,000-Year-Old Fix)</a></h3>
+      <p>Daylight saving ends Nov 1, 2026. What the Huangdi Neijing says about autumn and winter sleep, why the clock change wrecks your week, and 4 acupressure points (Kidney 6, Bladder 62, PC 6, HT 7) for the transition.</p>
+    </article>
+  </div>
+  <p class="center mt"><a class="btn btn--ghost" href="/blog">All articles</a></p>
+</div></section>
 
 <footer class="p-foot"><div class="wrap">
   <p class="p-foot__name">Dr. Stacy Peck, DACM, L.Ac.</p>
-  <nav class="p-foot__links" aria-label="Footer"><a href="/about">About</a><a href="/meal-plans">Free meal plans</a><a href="https://herbalrhymes.com/">Herbal Rhymes</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></nav>
+  <nav class="p-foot__links" aria-label="Footer"><a href="/about">About</a><a href="/blog">Blog</a><a href="/meal-plans">Free meal plans</a><a href="https://herbalrhymes.com/">Herbal Rhymes</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></nav>
   <p class="p-foot__fine">Educational content, not medical advice.<br>As an Amazon Associate I earn from qualifying purchases.<br>&copy; 2026 Dr. Stacy Peck</p>
 </div></footer>
+<script src="/track.js" defer></script>
 </body>
 </html>

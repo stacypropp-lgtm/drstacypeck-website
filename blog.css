@@ -73,3 +73,7 @@
 .also a{color:var(--ink-2)}
 @media (max-width:900px){.tools{grid-template-columns:1fr 1fr}.quotes{grid-template-columns:1fr}}
 @media (max-width:520px){.tools{grid-template-columns:1fr}.cta-box{padding:1.75rem 1.25rem}}
+
+/* keep the two-up book rows inside narrow screens even before cover images load */
+.p-book{min-width:0}
+.p-book img{max-width:100%;height:auto}
